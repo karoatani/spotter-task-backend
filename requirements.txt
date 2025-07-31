@@ -17,10 +17,14 @@ django-cors-headers==4.7.0
     # via spotter-task-backend (pyproject.toml)
 djangorestframework==3.16.0
     # via spotter-task-backend (pyproject.toml)
+gunicorn==23.0.0
+    # via spotter-task-backend (pyproject.toml)
 idna==3.10
     # via requests
 openrouteservice==2.3.3
     # via spotter-task-backend (pyproject.toml)
+packaging==25.0
+    # via gunicorn
 python-decouple==3.8
     # via spotter-task-backend (pyproject.toml)
 requests==2.32.4
