@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: spotter-task
-    env: python
-    buildCommand: uv sync
-    startCommand: uvicorn spotter_task.asgi:application --host=0.0.0.0 --port=10000
-    migrationsCommand: uv run manage.py migrate
