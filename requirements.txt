@@ -8,9 +8,12 @@ certifi==2025.7.14
     # via requests
 charset-normalizer==3.4.2
     # via requests
+dj-database-url==3.0.1
+    # via spotter-task-backend (pyproject.toml)
 django==5.2.4
     # via
     #   spotter-task-backend (pyproject.toml)
+    #   dj-database-url
     #   django-cors-headers
     #   djangorestframework
 django-cors-headers==4.7.0
