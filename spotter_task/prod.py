@@ -1,4 +1,4 @@
-from settings import *
+from .settings import *
 from decouple import config
 import dj_database_url
 SECRET_KEY = config("DJANGO_SECRET_KEY")
