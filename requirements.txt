@@ -28,6 +28,8 @@ openrouteservice==2.3.3
     # via spotter-task-backend (pyproject.toml)
 packaging==25.0
     # via gunicorn
+psycopg2-binary==2.9.10
+    # via spotter-task-backend (pyproject.toml)
 python-decouple==3.8
     # via spotter-task-backend (pyproject.toml)
 requests==2.32.4

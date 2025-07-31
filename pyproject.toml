@@ -11,6 +11,7 @@ dependencies = [
     "djangorestframework>=3.16.0",
     "gunicorn>=23.0.0",
     "openrouteservice>=2.3.3",
+    "psycopg2-binary>=2.9.10",
     "python-decouple>=3.8",
     "requests>=2.32.4",
 ]
